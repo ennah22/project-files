@@ -1,0 +1,77 @@
+*{
+    padding: 0; 
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to left, rgba(3, 65, 61),rgb(4, 134, 63));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+nav{
+    background: rgba(0, 0, 0, 0.7);
+    height: 80px;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    line-height: 70px;
+    list-style: none;
+}
+nav ul li a{
+    color: #ffff;
+    text-transform: capitalize;
+}
+main{
+    border:0px solid black;
+    width: 40%;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+div {
+    border: 0px solid white;
+    width: 50%;
+    height: 225px; 
+}
+main section{
+    border: 0px solid white;
+    width: 100%;
+    height: 550px;
+    margin-bottom: 40px;
+}
+.class{
+    background-color: rgb(165, 109, 6);
+}
+main div img{
+    width: 100%;
+    height: 225px;
+}
+main div p{
+    color: aliceblue;
+    line-height: 20px;
+}
+main div h3{
+    color: whitesmoke;
+}
+main div footer{
+    color: beige;
+}
+main section{
+    background-color: aliceblue;
+    padding-top: 20px;
+}
+main section p{
+    line-height: 25px;
+    margin-left: 10px;
+}
+main section h2{
+    margin-left: 10px;
+
+}
